@@ -34,6 +34,24 @@ background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-2
 background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.navbar-default .navbar-brand {
+  color: grey;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: grey;
+  opacity: 0.75;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color:  grey;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:  grey;
+  opacity: 0.75;
+}
+
 .home-callout{
     color: white;
     padding-bottom: 50px;
