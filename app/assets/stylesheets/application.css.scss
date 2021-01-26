@@ -15,6 +15,7 @@
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
+@import 'font-awesome';
 
 
 h1, h2, h3 {
@@ -57,4 +58,9 @@ background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, F
     padding-bottom: 50px;
     margin-top: -10px;
     padding-top: 1px;
+}
+
+.navbar-brand {
+
+  font-weight: 800;
 }
