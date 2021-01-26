@@ -3,6 +3,7 @@
   <head>
     <title>Saasapp</title>
     <%= csrf_meta_tags %>
+    
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&family=Yusei+Magic&display=swap" rel="stylesheet">
 
@@ -11,6 +12,9 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="container">
+      <%= yield %>
+    </div>
+   
   </body>
 </html>

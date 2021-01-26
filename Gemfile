@@ -22,6 +22,9 @@ gem 'jbuilder', '2.5.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '3.1.7'
 # Use Capistrano for deployment
+
+#use twitter bootstrap library
+gem 'bootstrap-sass', '3.3.7'
 # gem 'capistrano-rails', group: :development
 group :development, :test do
   # Use sqlite3 as the database for Active Record
